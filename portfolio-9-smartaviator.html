@@ -143,8 +143,7 @@
 								</div>
 							</div> <!-- /.h-attr-search-inner -->
 							<div class="h-attr-search-close"><i class="tt-close-btn tt-close-light"></i>
-								<span>Close</span>
-							</div>
+								<span>Close</span></div>
 						</div> <!-- /.h-attr-search -->
 					</li>
 					<!-- End header attributes search -->
@@ -444,11 +443,11 @@
 												<li><a href="portfolio-single-4.html">Portfolio Single 4</a></li>
 												<li><a href="portfolio-single-5.html">Portfolio Single 5</a></li>
 												<li><a href="portfolio-single-6.html">Portfolio Single 6</a></li>
-												<li class="active"><a href="portfolio-single-7.html">Portfolio Single
-														7</a></li>
+												<li><a href="portfolio-single-7.html">Portfolio Single 7</a></li>
 												<li><a href="portfolio-single-8.html">Portfolio Single 8</a></li>
 												<li><a href="portfolio-single-9.html">Portfolio Single 9</a></li>
-												<li><a href="portfolio-single-10.html">Portfolio Single 10</a></li>
+												<li class="active"><a href="portfolio-single-10.html">Portfolio Single
+														10</a></li>
 												<li><a href="portfolio-single-11.html">Portfolio Single 11</a></li>
 												<li><a href="portfolio-single-12.html">Portfolio Single 12</a></li>
 												<li><a href="portfolio-single-grid-no-crop.html">Single Grid No Crop</a>
@@ -797,46 +796,26 @@
 			* Use classes "ph-xs", "ph-sm", "ph-lg" or "ph-xlg" to set page header size.
 			* Use class "ph-center" or "ph-right" to align page header caption.
 			-->
-		<section id="page-header" class="ph-xlg ph-center">
+		<section id="page-header" class="ph-lg">
 
-			<!-- Begin YTPlayer (Youtube video background)
-				=======================================================
-				* NOTE: Replace videoURL with your own (videoURL:'your-youtube-video-URL'). 
-				* Do not forget to add your background image for mobile devices (because the video background doesn't work on mobile devices).
-				* YTPlayer may not work in the local computer. It works properly only if used under a web server.
-				* Read more info about YTPlayer: https://github.com/pupunzi/jquery.mb.YTPlayer
+			<!-- Begin page header image 
+				============================= 
+				* Use class "parallax-1" up to "parallax-8" to enable image parallax effect (number 1-8 represents the speed).
+				* Use class "hide-ph-image" to hide page header image without removing the code.
 				-->
-			<div class="youtube-bg-wrap parallax-6 bg-dark">
-				<div class="youtube-bg"
-					style="background-image: url(assets/img/video-bg/video-bg-1.jpg); background-position: 50% 50%;"
-					data-property="{
-						videoURL: 'https://www.youtube.com/watch?v=ChOhcHD8fBA',
-						containment: 'self',
-						quality: 'default',
-						startAt: 18,
-						stopAt: 80,
-						autoPlay: true,
-						loop: true,
-						mute: true,
-						showControls: false,
-						showYTLogo: false,
-						realfullscreen: true,
-						addRaster: false,
-						optimizeDisplay: true,
-						stopMovieOnBlur: true
-					}">
+			<div class="page-header-image parallax-6 bg-image"
+				style="background-image: url(assets/img/portfolio/list/list-2/portfolio-list-5.jpg);">
 
-					<!-- Element cover 
-						===================
-						* Use class "cover-opacity-*" to set cover opasity (1, 1.5, 2, 2.5, ... 9.5). Example: "cover-opacity-2" or "cover-opacity-2-5".
-						* Aditional color classes you can use: "cover-color", "cover-light", "cover-red", "cover-pink", "cover-purple", "cover-green", "cover-blue", "cover-yellow" or "cover-brown" to set cover background color (note: class "cover-color" = template main color).
-						* Use class "cover-gradient-dark", "cover-gradient-light" or "cover-gradient-color" to enable cover gradient background.
-						-->
-					<div class="cover cover-opacity-5"></div>
+				<!-- Element cover 
+					===================
+					* Use class "cover-opacity-*" to set cover opasity (1, 1.5, 2, 2.5, ... 9.5). Example: "cover-opacity-2" or "cover-opacity-2-5".
+					* Aditional color classes you can use: "cover-color", "cover-light", "cover-red", "cover-pink", "cover-purple", "cover-green", "cover-blue", "cover-yellow" or "cover-brown" to set cover background color (note: class "cover-color" = template main color).
+					* Use class "cover-gradient-dark", "cover-gradient-light" or "cover-gradient-color" to enable cover gradient background.
+					-->
+				<div class="cover cover-opacity-4"></div>
 
-				</div> <!-- /.youtube-bg -->
 			</div>
-			<!-- End YTPlayer -->
+			<!-- End page header image -->
 
 			<!-- Begin page header inner -->
 			<div class="page-header-inner tt-wrap">
@@ -913,7 +892,7 @@
 
 				<!-- Begin portfolio single info 
 					================================= -->
-				<div class="portfolio-single-info tt-wrap margin-bottom-80 text-center">
+				<div class="portfolio-single-info tt-wrap margin-bottom-80">
 
 					<!-- Begin portfolio single text -->
 					<div class="portfolio-single-text">
@@ -921,7 +900,7 @@
 						<p>Vestibulum sodales turpis luctus, ultrices metus nec, semper ex. Morbi libero metus, pulvinar
 							vitae est sed, sollicitudin varius purus. Ut quis ipsum eu augue finibus laoreet. Aenean
 							ultrices hendrerit suscipit. Mauris vel hendrerit lacus. Aenean semper nulla ultrices enim
-							aliquet placerat atresant barvadus nematis.</p>
+							aliquet placerat.</p>
 					</div>
 					<!-- End portfolio single text -->
 
@@ -932,7 +911,7 @@
 								<!-- Required -->
 								<div class="ps-category">
 									<div class="ps-attr-heading">Category:</div>
-									<div class="ps-attr-cont"><a href="">Branding</a>, <a href="">Print</a></div>
+									<div class="ps-attr-cont"><a href="">Illustrations</a>, <a href="">Print</a></div>
 								</div>
 							</li>
 
@@ -972,14 +951,14 @@
 					* Use class "psi-dark" to enable portfolio single image dark hover overlay.
 					* Use class "psi-white" to enable portfolio single image white hover overlay.
 					-->
-				<div class="portfolio-single-gallery lightgallery psi-zoom psi-white">
+				<div class="portfolio-single-gallery lightgallery psi-zoom psi-colored">
 
 					<!-- Begin isotope
 						===================
 						* Use class "gutter-1", "gutter-2", "gutter-3", "gutter-4", "gutter-5" or "gutter-6" to add more space between items.
 						* Use class "col-1", "col-2", "col-3", "col-4", "col-5" or "col-6" for columns.
 						-->
-					<div class="isotope col-3 gutter-3">
+					<div class="isotope col-3">
 
 						<!-- Begin isotope items wrap -->
 						<div class="isotope-items-wrap">
@@ -997,12 +976,12 @@
 
 								<!-- Begin portfolio single image -->
 								<figure class="portfolio-single-image-holder">
-									<a href="assets/img/portfolio/single/single-1/big/portfolio-single-1.jpg"
+									<a href="assets/img/portfolio/single/single-2/big/portfolio-single-1.jpg"
 										class="ps-image-link lg-trigger"
-										data-exthumbnail="assets/img/portfolio/single/single-1/thumb/portfolio-single-1.jpg"
+										data-exthumbnail="assets/img/portfolio/single/single-2/thumb/portfolio-single-1.jpg"
 										data-sub-html="Yes, you can use image captions. :)">
 										<div class="portfolio-single-image bg-image lazy"
-											data-src="assets/img/portfolio/single/single-1/portfolio-single-1.jpg">
+											data-src="assets/img/portfolio/single/single-2/portfolio-single-1.jpg">
 											<div class="ps-image-icon">
 												<span class="lnr lnr-eye"></span>
 											</div>
@@ -1023,11 +1002,11 @@
 
 								<!-- Begin portfolio single image -->
 								<figure class="portfolio-single-image-holder">
-									<a href="assets/img/portfolio/single/single-1/big/portfolio-single-2.jpg"
+									<a href="assets/img/portfolio/single/single-2/big/portfolio-single-5.jpg"
 										class="ps-image-link lg-trigger"
-										data-exthumbnail="assets/img/portfolio/single/single-1/thumb/portfolio-single-2.jpg">
+										data-exthumbnail="assets/img/portfolio/single/single-2/thumb/portfolio-single-5.jpg">
 										<div class="portfolio-single-image bg-image lazy"
-											data-src="assets/img/portfolio/single/single-1/portfolio-single-2.jpg">
+											data-src="assets/img/portfolio/single/single-2/portfolio-single-5.jpg">
 											<div class="ps-image-icon">
 												<span class="lnr lnr-eye"></span>
 											</div>
@@ -1051,7 +1030,7 @@
 									<a href="https://www.youtube.com/watch?v=xK5HkSpKLVA"
 										class="ps-image-link lg-trigger">
 										<div class="portfolio-single-image bg-image lazy"
-											data-src="assets/img/portfolio/single/single-1/portfolio-single-3.jpg">
+											data-src="assets/img/portfolio/single/single-2/portfolio-single-6.jpg">
 											<div class="ps-image-icon">
 												<span class="lnr lnr-eye"></span>
 											</div>
@@ -1072,11 +1051,11 @@
 
 								<!-- Begin portfolio single image -->
 								<figure class="portfolio-single-image-holder">
-									<a href="assets/img/portfolio/single/single-1/big/portfolio-single-4.jpg"
+									<a href="assets/img/portfolio/single/single-2/big/portfolio-single-4.jpg"
 										class="ps-image-link lg-trigger"
-										data-exthumbnail="assets/img/portfolio/single/single-1/thumb/portfolio-single-4.jpg">
+										data-exthumbnail="assets/img/portfolio/single/single-2/thumb/portfolio-single-4.jpg">
 										<div class="portfolio-single-image bg-image lazy"
-											data-src="assets/img/portfolio/single/single-1/portfolio-single-4.jpg">
+											data-src="assets/img/portfolio/single/single-2/portfolio-single-4.jpg">
 											<div class="ps-image-icon">
 												<span class="lnr lnr-eye"></span>
 											</div>
@@ -1097,11 +1076,11 @@
 
 								<!-- Begin portfolio single image -->
 								<figure class="portfolio-single-image-holder">
-									<a href="assets/img/portfolio/single/single-1/big/portfolio-single-5.jpg"
+									<a href="assets/img/portfolio/single/single-2/big/portfolio-single-11.jpg"
 										class="ps-image-link lg-trigger"
-										data-exthumbnail="assets/img/portfolio/single/single-1/thumb/portfolio-single-5.jpg">
+										data-exthumbnail="assets/img/portfolio/single/single-2/thumb/portfolio-single-11.jpg">
 										<div class="portfolio-single-image bg-image lazy"
-											data-src="assets/img/portfolio/single/single-1/portfolio-single-5.jpg">
+											data-src="assets/img/portfolio/single/single-2/portfolio-single-11.jpg">
 											<div class="ps-image-icon">
 												<span class="lnr lnr-eye"></span>
 											</div>
@@ -1122,11 +1101,11 @@
 
 								<!-- Begin portfolio single image -->
 								<figure class="portfolio-single-image-holder">
-									<a href="assets/img/portfolio/single/single-1/big/portfolio-single-6.jpg"
+									<a href="assets/img/portfolio/single/single-2/big/portfolio-single-12.jpg"
 										class="ps-image-link lg-trigger"
-										data-exthumbnail="assets/img/portfolio/single/single-1/thumb/portfolio-single-6.jpg">
+										data-exthumbnail="assets/img/portfolio/single/single-2/thumb/portfolio-single-12.jpg">
 										<div class="portfolio-single-image bg-image lazy"
-											data-src="assets/img/portfolio/single/single-1/portfolio-single-6.jpg">
+											data-src="assets/img/portfolio/single/single-2/portfolio-single-12.jpg">
 											<div class="ps-image-icon">
 												<span class="lnr lnr-eye"></span>
 											</div>
@@ -1147,11 +1126,11 @@
 
 								<!-- Begin portfolio single image -->
 								<figure class="portfolio-single-image-holder">
-									<a href="assets/img/portfolio/single/single-1/big/portfolio-single-7.jpg"
+									<a href="assets/img/portfolio/single/single-2/big/portfolio-single-13.jpg"
 										class="ps-image-link lg-trigger"
-										data-exthumbnail="assets/img/portfolio/single/single-1/thumb/portfolio-single-7.jpg">
+										data-exthumbnail="assets/img/portfolio/single/single-2/thumb/portfolio-single-13.jpg">
 										<div class="portfolio-single-image bg-image lazy"
-											data-src="assets/img/portfolio/single/single-1/portfolio-single-7.jpg">
+											data-src="assets/img/portfolio/single/single-2/portfolio-single-13.jpg">
 											<div class="ps-image-icon">
 												<span class="lnr lnr-eye"></span>
 											</div>
@@ -1227,7 +1206,7 @@
 					* Use class "text-center" or "text-right" to align tt-heading.
 					* Use classes "tt-heading-xs", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg" or "tt-heading-xxlg" to set tt-heading size.
 					-->
-				<div class="tt-heading tt-heading-xlg margin-bottom-80 text-center">
+				<div class="tt-heading tt-heading-xlg margin-bottom-80">
 					<div class="tt-heading-inner tt-wrap">
 						<h1 class="tt-heading-title">More Projects</h1>
 						<div class="tt-heading-subtitle">Other projects you might like</div>
@@ -1257,7 +1236,7 @@
 					* Use class "pli-colored" or "pli-multi-colored" to enable colored hover overlay (effect only with default hover overlay and "pli-alter-4", "pli-alter-5" classes!).
 					* Use class "pli-frame" to enable image frames.
 					-->
-				<div class="project-carousel pli-alter-3">
+				<div class="project-carousel pli-colored pli-alter-4">
 
 					<!-- Begin content carousel (https://owlcarousel2.github.io/OwlCarousel2/)
 						====================================================================
@@ -1297,7 +1276,7 @@
 								data-dots="false"....................(true/false)
 								data-dots-speed="800"................(milliseconds)
 						-->
-					<div class="owl-carousel nav-outside-top nav-rounded" data-lazy-load="true" data-items="4"
+					<div class="owl-carousel nav-outside-top nav-rounded" data-lazy-load="true" data-items="3"
 						data-margin="40" data-dots="false" data-nav="true" data-nav-speed="800"
 						data-tablet-landscape="3" data-tablet-portrait="2" data-mobile-landscape="2"
 						data-mobile-portrait="1">
@@ -1313,9 +1292,9 @@
 								<div class="pl-item-image-wrap">
 
 									<!-- Begin portfolio list item image inner -->
-									<a href="portfolio-single-1.html" class="pl-item-image-inner">
+									<a href="portfolio-single-12.html" class="pl-item-image-inner">
 										<div class="pl-item-image bg-image owl-lazy"
-											data-src="assets/img/portfolio/list/list-1/portfolio-list-1.jpg"></div>
+											data-src="assets/img/portfolio/list/list-2/portfolio-list-1.jpg"></div>
 
 										<!-- Portfolio list item icon (displayed only with default hover overlay and "pli-alter-4" class in isotope-items-wrap) -->
 										<div class="pl-item-icon"><span class="lnr lnr-link"></span></div>
@@ -1328,7 +1307,7 @@
 								<!-- Begin portfolio list item info -->
 								<div class="pl-item-info">
 									<div class="pl-item-caption">
-										<h2 class="pl-item-title"><a href="portfolio-single-1.html">Elper Nomadis</a>
+										<h2 class="pl-item-title"><a href="portfolio-single-12.html">Elper Nomadis</a>
 										</h2>
 										<div class="pl-item-category"><a href="">Digital</a></div>
 									</div>
@@ -1352,9 +1331,9 @@
 								<div class="pl-item-image-wrap">
 
 									<!-- Begin portfolio list item image inner -->
-									<a href="portfolio-single-2.html" class="pl-item-image-inner">
+									<a href="portfolio-single-11.html" class="pl-item-image-inner">
 										<div class="pl-item-image bg-image owl-lazy"
-											data-src="assets/img/portfolio/list/list-1/portfolio-list-16.gif"></div>
+											data-src="assets/img/portfolio/list/list-2/portfolio-list-20.gif"></div>
 
 										<!-- Portfolio list item icon (displayed only with default hover overlay and "pli-alter-4" class in isotope-items-wrap) -->
 										<div class="pl-item-icon"><span class="lnr lnr-link"></span></div>
@@ -1367,7 +1346,7 @@
 								<!-- Begin portfolio list item info -->
 								<div class="pl-item-info">
 									<div class="pl-item-caption">
-										<h2 class="pl-item-title"><a href="portfolio-single-2.html">Futter Samantis</a>
+										<h2 class="pl-item-title"><a href="portfolio-single-11.html">Futter Samantis</a>
 										</h2>
 										<div class="pl-item-category"><a href="">Print</a></div>
 									</div>
@@ -1391,9 +1370,9 @@
 								<div class="pl-item-image-wrap">
 
 									<!-- Begin portfolio list item image inner -->
-									<a href="portfolio-single-3.html" class="pl-item-image-inner">
+									<a href="portfolio-single-10.html" class="pl-item-image-inner">
 										<div class="pl-item-image bg-image owl-lazy"
-											data-src="assets/img/portfolio/list/list-1/portfolio-list-3.jpg"></div>
+											data-src="assets/img/portfolio/list/list-2/portfolio-list-3.jpg"></div>
 
 										<!-- Portfolio list item icon (displayed only with default hover overlay and "pli-alter-4" class in isotope-items-wrap) -->
 										<div class="pl-item-icon"><span class="lnr lnr-link"></span></div>
@@ -1406,7 +1385,7 @@
 								<!-- Begin portfolio list item info -->
 								<div class="pl-item-info">
 									<div class="pl-item-caption">
-										<h2 class="pl-item-title"><a href="portfolio-single-3.html">Tartumi Sandera
+										<h2 class="pl-item-title"><a href="portfolio-single-10.html">Tartumi Sandera
 												Naomis</a></h2>
 										<div class="pl-item-category"><a href="">Branding</a></div>
 									</div>
@@ -1430,9 +1409,9 @@
 								<div class="pl-item-image-wrap">
 
 									<!-- Begin portfolio list item image inner -->
-									<a href="portfolio-single-4.html" class="pl-item-image-inner">
+									<a href="portfolio-single-9.html" class="pl-item-image-inner">
 										<div class="pl-item-image bg-image owl-lazy"
-											data-src="assets/img/portfolio/list/list-1/portfolio-list-4.jpg"></div>
+											data-src="assets/img/portfolio/list/list-2/portfolio-list-4.jpg"></div>
 
 										<!-- Portfolio list item icon (displayed only with default hover overlay and "pli-alter-4" class in isotope-items-wrap) -->
 										<div class="pl-item-icon"><span class="lnr lnr-link"></span></div>
@@ -1445,7 +1424,7 @@
 								<!-- Begin portfolio list item info -->
 								<div class="pl-item-info">
 									<div class="pl-item-caption">
-										<h2 class="pl-item-title"><a href="portfolio-single-4.html">Tetera Laktus</a>
+										<h2 class="pl-item-title"><a href="portfolio-single-9.html">Tetera Laktus</a>
 										</h2>
 										<div class="pl-item-category"><a href="">Digital</a></div>
 									</div>
@@ -1469,9 +1448,9 @@
 								<div class="pl-item-image-wrap">
 
 									<!-- Begin portfolio list item image inner -->
-									<a href="portfolio-single-5.html" class="pl-item-image-inner">
+									<a href="portfolio-single-12.html" class="pl-item-image-inner">
 										<div class="pl-item-image bg-image owl-lazy"
-											data-src="assets/img/portfolio/list/list-1/portfolio-list-5.jpg"></div>
+											data-src="assets/img/portfolio/list/list-2/portfolio-list-19.gif"></div>
 
 										<!-- Portfolio list item icon (displayed only with default hover overlay and "pli-alter-4" class in isotope-items-wrap) -->
 										<div class="pl-item-icon"><span class="lnr lnr-link"></span></div>
@@ -1484,7 +1463,7 @@
 								<!-- Begin portfolio list item info -->
 								<div class="pl-item-info">
 									<div class="pl-item-caption">
-										<h2 class="pl-item-title"><a href="portfolio-single-5.html">Tant Saktra
+										<h2 class="pl-item-title"><a href="portfolio-single-12.html">Tant Saktra
 												Memis</a></h2>
 										<div class="pl-item-category"><a href="">Motion</a></div>
 									</div>
@@ -1508,9 +1487,9 @@
 								<div class="pl-item-image-wrap">
 
 									<!-- Begin portfolio list item image inner -->
-									<a href="portfolio-single-6.html" class="pl-item-image-inner">
+									<a href="portfolio-single-11.html" class="pl-item-image-inner">
 										<div class="pl-item-image bg-image owl-lazy"
-											data-src="assets/img/portfolio/list/list-1/portfolio-list-6.jpg"></div>
+											data-src="assets/img/portfolio/list/list-2/portfolio-list-6.jpg"></div>
 
 										<!-- Portfolio list item icon (displayed only with default hover overlay and "pli-alter-4" class in isotope-items-wrap) -->
 										<div class="pl-item-icon"><span class="lnr lnr-link"></span></div>
@@ -1523,7 +1502,7 @@
 								<!-- Begin portfolio list item info -->
 								<div class="pl-item-info">
 									<div class="pl-item-caption">
-										<h2 class="pl-item-title"><a href="portfolio-single-6.html">Intuisa Jacobis
+										<h2 class="pl-item-title"><a href="portfolio-single-11.html">Intuisa Jacobis
 												Untra</a></h2>
 										<div class="pl-item-category"><a href="">Branding</a>, <a href="">Digital</a>
 										</div>
@@ -1561,9 +1540,9 @@
 				<div class="row">
 					<div class="col-xs-5 ps-nav-col">
 
-						<a href="portfolio-single-6.html" class="ps-nav ps-nav-left">
+						<a href="portfolio-single-9.html" class="ps-nav ps-nav-left">
 							<div class="ps-nav-image bg-image"
-								style="background-image: url(assets/img/portfolio/list/list-1/portfolio-list-7.jpg);">
+								style="background-image: url(assets/img/portfolio/list/list-2/portfolio-list-7.jpg);">
 							</div>
 							<div class="ps-nav-info">
 								<div class="ps-nav-subtitle">
@@ -1588,9 +1567,9 @@
 
 					<div class="col-xs-5 ps-nav-col text-right">
 
-						<a href="portfolio-single-8.html" class="ps-nav ps-nav-right">
+						<a href="portfolio-single-11.html" class="ps-nav ps-nav-right">
 							<div class="ps-nav-image bg-image"
-								style="background-image: url(assets/img/portfolio/list/list-1/portfolio-list-8.jpg);">
+								style="background-image: url(assets/img/portfolio/list/list-2/portfolio-list-8.jpg);">
 							</div>
 							<div class="ps-nav-info">
 								<div class="ps-nav-subtitle">
