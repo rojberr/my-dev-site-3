@@ -991,31 +991,6 @@
    });
 
 
-
-   // ===============================================
-	// uniMail - Universal PHP Mail Feedback Script
-	// Source: https://github.com/agragregra/uniMail
-	// ===============================================
-
-	// E-mail Ajax Send
-	$("#contact-form").submit(function() { // your contact form ID.
-		var th = $(this);
-		$.ajax({
-			type: "POST",
-			url: "mail.php", // mail.php path.
-			data: th.serialize()
-		}).done(function() {
-			alert("Thank you. Your message has been sent!");
-			setTimeout(function() {
-			// Done Functions
-			th.trigger("reset");
-			}, 1000);
-		});
-		return false;
-	});
-
-
-
    // ======================
    // Footer
    // ======================
