@@ -44,7 +44,7 @@ If You have better stats, drop me a line at: rojberr@outlook.com
 - [ ] - Edit index page
   - [ ] - Edit main description
   - [ ] - Link your projects to projects section
-  - [ ] - Add main pictures (old drzymala.dev for now)
+  - [x] - Add main pictures (old drzymala.dev for now)
   - [ ] - Link your DevOps Cookbook to Latest News section 
   - [ ] - Change page layout
   - [ ] - Add your video
@@ -56,3 +56,4 @@ If You have better stats, drop me a line at: rojberr@outlook.com
   - [ ] - Add links to live versions
   - [ ] - Add links to youtube videos
 - [ ] - Remove unnecessary files / assets
+- [ ] - Take some picture of myself and my work and upload them to fitting sections
