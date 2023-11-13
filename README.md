@@ -38,3 +38,20 @@ website is already deployed and can be found at :point_right: <https://rojberr.g
 ## Author 👷
 
 If You have better stats, drop me a line at: rojberr@outlook.com
+
+## Todo 📝
+- [ ] - Add custom logo
+- [ ] - Edit index page
+  - [ ] - Edit main description
+  - [ ] - Link your projects to projects section
+  - [ ] - Add main pictures (old drzymala.dev for now)
+  - [ ] - Link your DevOps Cookbook to Latest News section 
+  - [ ] - Change page layout
+  - [ ] - Add your video
+- [ ] - Add german version
+- [ ] - Edit portfolio pages
+  - [ ] - Add pictures
+  - [ ] - Add descriptions
+  - [ ] - Add links to github
+  - [ ] - Add links to live versions
+  - [ ] - Add links to youtube videos
