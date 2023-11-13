@@ -1,2 +1,5 @@
 # VSCODE related files
 .vscode
+
+# JetBrains IDEs
+.idea
