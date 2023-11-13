@@ -55,3 +55,4 @@ If You have better stats, drop me a line at: rojberr@outlook.com
   - [ ] - Add links to github
   - [ ] - Add links to live versions
   - [ ] - Add links to youtube videos
+- [ ] - Remove unnecessary files / assets
