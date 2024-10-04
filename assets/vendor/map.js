@@ -20,7 +20,7 @@ function initMap() {
 // End map style
 
 
-  var myLatlng = new google.maps.LatLng(-37.817251, 144.955891); // Set coordinates.
+  var myLatlng = new google.maps.LatLng(52.520816, 13.409417); // Set coordinates.
   var mapOptions = {
     mapTypeControl: true,
     scrollwheel: false,
