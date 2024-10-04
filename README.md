@@ -40,7 +40,7 @@ website is already deployed and can be found at :point_right: <https://rojberr.g
 If You have better stats, drop me a line at: rojberr@outlook.com
 
 ## Todo 📝
-- [ ] - Add custom logo
+- [x] - Add custom logo
 - [ ] - Edit index page
   - [ ] - Edit main description
   - [ ] - Link your projects to projects section
