@@ -46,6 +46,11 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
     <!-- Global font -->
 
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+
     <!-- Bootstrap 3 CSS (https://getbootstrap.com/docs/3.3/) -->
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
 
@@ -458,7 +463,7 @@
     * Tutorial: https://developers.google.com/maps/documentation/javascript/tutorial
     * Styles: https://snazzymaps.com/
     -->
-    <div id="tt-map"></div>
+    <div id="leaflet-map"></div>
     <!-- End custom Google Map -->
 
 
@@ -642,14 +647,24 @@
 <script src="assets/vendor/jquery-lazy/js/jquery.lazy.plugins.min.js"></script>
 <!-- jqueryLazy Plugins JS (http://jquery.eisbehr.de/lazy/) -->
 
-<!-- Google maps JS (https://developers.google.com/maps/documentation/javascript/tutorial). Only for contact page!!! -->
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAo5b533IB2iuDcTn2razvfjyc_rpZdiRw&callback=initMap"></script>
-<script src="assets/vendor/map.js"></script>
-
 <!--  master JS -->
 <script src="assets/js/theme.js"></script>
 
 </body>
+
+<!--  Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+<script>
+    var map = L.map('leaflet-map').setView([52.5208, 13.4094], 12);
+    var marker = L.marker([52.5208, 13.4094]).addTo(map);
+
+    var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    });
+    osm.addTo(map);
+
+</script>
 
 </html>

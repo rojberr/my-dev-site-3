@@ -15023,14 +15023,14 @@ blockquote small {
 
 /* -------------------------------------------------------------------------------- *
  *  Map
- *  Tutorial: https://developers.google.com/maps/documentation/javascript/tutorial
- *  Map styles: https://snazzymaps.com/
+ *  Tutorial: https://leafletjs.com/examples/quick-start/
 /* -------------------------------------------------------------------------------- */
-#tt-map {
+#leaflet-map {
     width: 100%;
     min-height: 320px;
-    padding-bottom: 25%; /* map-height */
+    padding-bottom: 22%; /* map-height */
 }
+
 
 
 /* ------------------------------------------------------------- *
