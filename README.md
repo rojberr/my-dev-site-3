@@ -39,6 +39,16 @@ website is already deployed and can be found at :point_right: <https://rojberr.g
 
 If You have better stats, drop me a line at: rojberr@outlook.com
 
+## Performance tests
+
+I did a performance tests using Lighthouse Google Chrome build in.
+
+I tried to keep the images as small as possible, keeping the pic quality high. 
+
+It reduces the page loading time to less then a second on mobile and desktop devices. 
+
+
+
 ## Todo 📝
 
 - [x] Add custom logo
