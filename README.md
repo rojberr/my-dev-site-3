@@ -55,7 +55,7 @@ It reduces the page loading time to less then a second on mobile and desktop dev
 - [ ] Edit index page
     - [x] Edit main description
     - [ ] Link your projects to projects section
-    - [x] Add main pictures (old drzymala.dev for now)
+    - [x] Add main pictures (old drzymala.site for now)
     - [ ] Link your DevOps Cookbook to Latest News section
     - [x] Change page layout
     - [ ] Add your video
